@@ -1,2 +1,2 @@
 # msh-wifi-ota
-Meshtastic Wi-Fi OTA Firmware
+Compiled Meshtastic Wi-Fi OTA Firmware
