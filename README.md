@@ -1,6 +1,7 @@
-Compiled Meshtastic Wi-Fi OTA Firmware
+**Compiled Meshtastic Wi-Fi OTA Firmware**
 
-Potrebna tooly jsou: esptool, espota, meshtastic, k sehnani jako exe nebo pythoni verze (nicmene pythoni verze espota.py mi nechodila, cert vi proc)
+Potrebna tooly jsou: **esptool, espota, meshtastic**,<br>
+k sehnani jako exe nebo pythoni verze (nicmene pythoni verze espota.py mi nechodila, cert vi proc)
 
 ## Navod:
 Zjistime pozici OTA FW v pameti a verzi ESP32, treba zde: https://github.com/meshtastic/firmware/tree/master/variants
@@ -14,3 +15,6 @@ Restartujeme zarizeni do OTA rezimu:<br>
 
 Nahrajeme FW:<br>
 **espota.exe -i IP.ADRESA -f firmware-*-update.bin** (VYBRAT verzi -update, jinak to bricknete!)
+
+Puvodni navod:<br>
+https://blog.antsu.net/guide-how-to-enable-wi-fi-ota-updates-on-esp32-based-meshtastic-boards/
