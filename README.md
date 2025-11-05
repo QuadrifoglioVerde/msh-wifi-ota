@@ -1,7 +1,7 @@
 **Compiled Meshtastic Wi-Fi OTA Firmware**
 
 Potrebna tooly jsou: **esptool, espota, meshtastic**<br>
-k sehnani jako exe nebo pythoni verze (nicmene pythoni verze espota.py mi nechodila, cert vi proc)
+k sehnani jako exe nebo pythoni verze (nicmene pythoni verze espota.py mi nechodila, cert vi proc)<br>
 (jak na meshtastic je navod zde: https://meshtastic.org/cs-CZ/docs/software/python/cli/installation/)
 
 ## Navod:
