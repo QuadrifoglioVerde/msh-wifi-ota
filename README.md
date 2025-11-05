@@ -17,5 +17,7 @@ Restartujeme zarizeni do OTA rezimu:<br>
 Nahrajeme FW:<br>
 **espota.exe -i IP.ADRESA -f firmware-*-update.bin** (VYBRAT verzi -update, jinak to bricknete!)
 
+Pro dalsi update uz delame potom jen posledni dva prikazy, tzn. reboot do OTA a nahrati pres IP adresu
+
 Puvodni navod:<br>
 https://blog.antsu.net/guide-how-to-enable-wi-fi-ota-updates-on-esp32-based-meshtastic-boards/
