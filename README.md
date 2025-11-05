@@ -4,7 +4,7 @@ Potrebna tooly jsou: **esptool, espota, meshtastic**<br>
 k sehnani jako exe nebo pythoni verze (nicmene pythoni verze espota.py mi nechodila, cert vi proc)<br>
 (jak na meshtastic je navod zde: https://meshtastic.org/cs-CZ/docs/software/python/cli/installation/?install-python-cli=windows)
 
-## Navod:
+## Postup:
 Zjistime pozici OTA FW v pameti a verzi ESP32, treba zde: https://github.com/meshtastic/firmware/tree/master/variants
 najdeme svoje zarizeni a v nem platformio.ini, pokud obsahuje "board_build.partitions = default_8MB.csv" tak je zacatek OTA na 0x340000, jinak 0x260000.
 
