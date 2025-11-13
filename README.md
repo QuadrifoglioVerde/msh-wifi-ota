@@ -11,7 +11,7 @@ najdeme svoje zarizeni a v nem platformio.ini, pokud obsahuje "board_build.parti
 Nahradime OTA v zarizeni (port a nazev.bin nahradte vlastnim!):<br>
 **esptool.exe -b 115200 -p COM5 write_flash 0x340000 esp32s3.bin**
 
-Ted doporucuju spustit ping, dat ota-reboot a jak ping vypadne tak nasledne update<br>
+Ted doporucuju spustit ping, dat reboot-ota a jak ping vypadne tak nasledne spustit update<br>
 **ping IP.ADRESA -t**
 
 Restartujeme zarizeni do OTA rezimu:<br>
